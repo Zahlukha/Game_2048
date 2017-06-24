@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="css/style.css" rel="stylesheet">
+	<title>[2048]</title>
+</head>
+<body>
+	<p id="score"></p>
+
+	<div id="size-block">
+		<p id="size-title">Размер: </p>
+
+		<input id="size" type="number" value="4" min="4" max="7">
+		<input id="change-size" type="button" value="Принять">
+
+		<div class="clear"></div>
+	</div>
+
+	<div id="canvas-block">
+		<canvas id="canvas" width="500" height="500">
+		</div>
+
+		<footer>
+			<p class="footer">Developed by <a href="https://github.com/Zahlukha" target="_blank" rel="noopener">Zahlukha Artem</a></p>
+		</footer>
+
+		<script type="text/javascript" src="js/game.js"></script>
+
+	</body>
+	</html>
